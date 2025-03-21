@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            label "linux && java11" // This will run on a node with the label "linux && java11"
+            label "linux && java17" // This will run on a node with the label "linux && java11"
         }
     }
 
